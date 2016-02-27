@@ -25,6 +25,7 @@ describe('(View) Home', function () {
   beforeEach(function () {
     _spies = {}
     _props = {
+      year: new Date().getFullYear()
     }
 
     _component = shallowRenderWithProps(_props)

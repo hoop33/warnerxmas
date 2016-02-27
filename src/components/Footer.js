@@ -15,7 +15,7 @@ export default class Footer extends React.Component {
             </p>
 
             <p className='navbar-text navbar-right'>
-              &copy; 2016 The Warner Family
+              &copy; {new Date().getFullYear()} The Warner Family
             </p>
 
           </div>
