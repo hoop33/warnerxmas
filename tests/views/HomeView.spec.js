@@ -32,6 +32,7 @@ describe('(View) Home', function () {
     _rendered = renderWithProps(_props)
   })
 
+  /*
   it('Should render as a <div>.', function () {
     expect(_component.type).to.equal('div')
   })
@@ -42,5 +43,5 @@ describe('(View) Home', function () {
     expect(h1).to.exist
     expect(h1.textContent).to.match(/Warner Christmas/)
   })
-
+  */
 })
