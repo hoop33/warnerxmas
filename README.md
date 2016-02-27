@@ -1,4 +1,4 @@
-# Warner Xmas
+# Warner Christmas
 
 > The Warner Christmas gift exchange calendar
 
