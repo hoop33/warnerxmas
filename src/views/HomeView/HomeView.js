@@ -14,12 +14,12 @@ export class HomeView extends React.Component<void, Props, void> {
   }
 
   render () {
+    var opening = 'For Christmas ' + this.props.year;
     return (
       <div className='container text-center'>
-        <h1>Warner Christmas {this.props.year}</h1>
-        <GiftList year={this.props.year}/>
-        <h1>Last Year ({this.props.year - 1})</h1>
-        <GiftList year={this.props.year - 1}/>
+        <h1>Warner Christmas</h1>
+        <GiftList opening={opening} year={this.props.year}/>
+        <GiftList opening='Last year' year={this.props.year - 1}/>
       </div>
     );
   }

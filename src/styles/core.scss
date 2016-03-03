@@ -13,11 +13,27 @@
     margin: 0;
     padding: 0 0 0 50px;
     height: 100%;
+    font-size: 20px;
   }
 
   *,
   *:before,
   *:after {
     box-sizing: inherit;
+  }
+
+  .giftlist {
+    margin-bottom: 50px;
+  }
+
+  .opening {
+    font-size: 1.5em;
+    color: #b71c1c;
+  }
+
+  .giver,
+  .receiver {
+    color: #1b5e20;
+    font-weight: 700;
   }
 }
