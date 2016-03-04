@@ -41,7 +41,7 @@ export class GiftList extends React.Component<void, Props, void> {
                 &nbsp;{verb} to&nbsp;
               </span>
               <span className='receiver'>
-                {schedule[sibling]}
+                Jonathan
               </span>
               <span className='message'>
                 {lineEnding}
